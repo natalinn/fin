@@ -1,0 +1,314 @@
+@import "variables"
+
+@media only screen and (max-width: 1500px)
+  section
+    &.section-padding
+      padding: 30px 0
+      &.section-creative
+        padding-top: 100px
+      &.section-contact
+        padding: 50px 0
+    &.top-features
+      .main-features
+        > div
+          min-height: 220px
+          padding-top: 50px
+          i
+            font-size: 50px
+    &.main-features
+      .feature-item
+        margin-bottom: 30px
+    &.section-testimonials
+      padding-bottom: 60px
+      .bx-wrapper
+        margin-top: 30px
+        margin-bottom: 0
+        i.theHam-quote
+          margin-bottom: 20px
+        h4
+          margin-top: 20px
+        p
+          line-height: 22px
+  footer .footer-main
+    padding: 50px 0
+
+@media only screen and (max-width: 1200px)
+  section
+    &.section-news
+      .news-item .news-details
+        h4
+          margin-bottom: 5px
+        span
+          display: block
+          &.news-data-divider
+            display: none
+    &.section-pricing .pr-header
+      font-size: 18px
+      padding: 16px 0
+    &.section-creative
+      h2
+        font-size: 38px
+      h3
+        font-size: 30px
+
+
+@media only screen and (max-width: 992px)
+  .center-md
+    text-align: center
+  header .ham-navbar
+    .navbar-brand
+      padding: 26px 15px
+    .navbar-header img
+      max-width: 100%
+    .navbar-nav li a
+      padding: 30px 6px
+      font-size: 12px
+  section
+    &.ham-about
+      .devices-bg
+        display: none
+      .header-wrap
+        display: block
+        h2
+          text-align: center
+      .nav
+        display: inline-block
+    &.amazing-work
+      .mix
+        width: 33.33333%
+    &.section-services
+      .nav-tabs li a
+        font-size: 12px
+        line-height: 50px
+    &.section-statistics
+      .stat-wrap .icon-wrap
+        width: 140px
+        height: 140px
+        padding: 18px
+        .icon-bg
+          width: 100px
+          height: 100px
+          i
+            font-size: 30px
+            line-height: 100px
+    &.section-pricing .pr-header
+      font-size: 12px
+      padding: 21px 0
+    &.section-testimonials
+      .bx-wrapper
+        i.theHam-quote
+          font-size: 25px
+    &.section-team
+      .team-member-item
+        margin-bottom: 30px
+      .container
+        margin-bottom: 0
+    &.section-creative
+      h2
+        font-size: 30px
+      h3
+        font-size: 28px
+    &.section-padding.section-contact
+      padding-top: 0
+      #theHamMap
+        margin: 0 0 50px
+      form
+        max-width: 100%
+      .header-wrap
+        display: block
+
+@media only screen and (max-width: 767px)
+  .ham-btn
+    height: 45px
+  .center-xs
+    text-align: center
+  header .ham-navbar
+    .navbar-toggle
+      border-color: $primary-light
+      transition: $transition
+      margin: 13px 15px
+      &:hover, &:focus
+        background-color: $primary-light
+        .icon-bar
+          background-color: #fff
+      .icon-bar
+        background-color: $primary-light
+    .navbar-brand
+      padding: 10px 15px
+      img
+        max-height: 40px
+    .navbar-nav
+      width: 100%
+      margin: 0
+      li
+        text-align: center
+        a
+          padding: 10px
+    .navbar-collapse
+      border-color: $primary-light
+      padding: 0
+  section
+    padding: 0 15px
+    .section-header
+      font-size: 28px
+    &.ham-home
+      min-height: 100%
+      padding: 0
+      .ham-btn
+        padding: 0 15px
+        margin: 0 5px
+      h2
+        font-size: 22px
+      h1
+        font-size: 35px
+        + p
+          font-size: 16px
+      .centered-element
+        padding: 0 15px
+    &.amazing-work .ham-btn
+      margin: 40px 0 10px
+    &.top-features
+      padding: 0
+      .main-features
+        > div
+          min-height: 160px
+          padding: 25px 0
+    &.section-services
+      .nav-tabs li
+        width: 100%
+        &.active::after
+          display: none
+        a
+          border-right: 1px solid $mix-control-border
+    &.section-buy.section-padding
+      padding: 30px 0
+      h2
+        font-size: 30px
+        + p
+          margin-bottom: 30px
+    &.section-statistics .stat-wrap .stat-item
+      min-height: 300px
+    &.section-pricing .pricing-item
+      width: 50%
+      margin-bottom: 15px
+    &.section-testimonials
+      .testimonials-control
+        display: none
+      #ham-bx-pager
+        a
+          margin: 0 8px
+    &.section-creative
+      &.section-padding
+        padding-top: 50px
+      h2, h3
+        line-height: 1.3
+      h2
+        font-size: 24px
+      h3
+        font-size: 20px
+      ul
+        display: inline-block
+        text-align: left
+        margin: 30px 0
+      .ham-btn
+        margin-bottom: 30px
+  footer .footer-main
+    .main-footer-info
+      margin-bottom: 25px
+    h4
+      text-align: center
+      margin: 30px 0 10px
+
+@media only screen and (max-width: 650px)
+  section
+    &.amazing-work
+      .mix
+        width: 50%
+      .mixitup-controls
+        display: block
+        padding: 0 15px
+        li
+          float: none
+          display: block
+          button
+            width: 100%
+            border: 1px solid $mix-control-border
+            border-bottom-color: transparent
+            &.mixitup-control-active
+              border: 1px solid $primary-light
+              box-shadow: none
+          &:last-child
+            button
+              border-bottom-color: $mix-control-border
+              &.mixitup-control-active
+                border-bottom-color: $primary-light
+    &.section-services
+      .nav-tabs
+        margin-top: 20px
+      .service-image, .service-txt
+        width: 100%
+        float: none
+      .service-image
+        text-align: center
+        margin-bottom: 15px
+      .service-txt
+        padding-left: 0
+
+@media only screen and (max-width: 480px)
+  .full-480
+    width: 100%
+  section
+    &.ham-home
+      .ham-btn
+        padding: 0 10px
+    &.ham-about
+      .nav li
+        width: 100%
+        margin: 0
+        border: 1px solid transparent
+        &.active
+          border: 1px solid $primary-light
+      .history-item
+        text-align: center
+    &.amazing-work
+      .mix
+        width: 100%
+    &.section-statistics
+      .stat-wrap
+        .stat-item
+          min-height: 220px
+        .icon-wrap
+          width: 90px
+          height: 90px
+          padding: 13px
+          margin-bottom: 10px
+          .icon-bg
+            width: 60px
+            height: 60px
+            i
+              line-height: 60px
+              font-size: 25px
+    &.section-pricing .pricing-item
+      width: 100%
+    &.section-testimonials
+      #ham-bx-pager
+        a
+          margin: 0 5px
+        .user-image
+          width: 50px
+          height: 50px
+          &::before
+            height: 60px
+            width: 60px
+
+@media only screen and (min-height: 700px) and (min-width: 1500px)
+  header
+    .ham-navbar
+      .navbar-nav li a
+        padding: 50px 10px
+      .navbar-brand
+        padding: 26px 15px
+
+@media only screen and (min-width: 1200px)
+  .ham-btn
+    outline: none !important

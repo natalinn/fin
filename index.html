@@ -1,23 +1,1349 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="libs/bootstrap-3.3.7/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="libs/bootstrap-3.3.7/css/bootstrap.min.css">
+    <title>theHam</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css"/style.css>
+    <!--<link rel="stylesheet" href="libs/bootstrap-3.3.7/css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="libs/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/thefin/style.css">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="libs/bxslider/jquery.bxslider.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
 </head>
-<body>
-    hello world
-    <button class="btn-primary">Hello</button>
+<body data-spy="scroll" data-target="#ham-navbar" data-offset="100">
+    <header class="navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="img/logo.png" class="logo" alt="Responsive image">
+                </div>
+                <div class="col-sm-10">
+                    <nav class="navbar navbar-default ham-navbar">
+
+
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#ham-home">Home <span class="sr-only">(current)</span></a></li>
+                                    <li><a href="#ham-about">About</a></li>
+                                    <li><a href="#ham-skills">Skills</a></li>
+                                    <li><a href="#ham-service">Service</a></li>
+                                    <li><a href="#ham-work">Work</a></li>
+                                    <li><a href="#ham-testemonial">Testimonial</a></li>
+                                    <li><a href="#ham-blog">Blog</a></li>
+                                    <li><a href="#ham-team">Team</a></li>
+                                    <li><a href="#ham-contact">Contact</a></li>
+                                    <li><a href="#searchPage"><i class="finicon-search"></i></a></li>
+
+
+                                </ul>
+
+
+                            </div><!-- /.navbar-collapse -->
+
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="ham-home" class="section-bg ham-home">
+            <div class="slider-wrap">
+                <div class="home-slider owl-carousel owl-theme">
+                    <div class="home-slider-items home-slider-item" style="background-image: url('img/slider.jpg')"></div>
+                    <div class="home-slider-items home-slider-item" style="background-image: url('img/home-bg2.jpg')"></div>
+                    <div class="home-slider-items home-slider-item" style="background-image: url('img/home-bg3.jpg')"></div>
+                </div>
+                <div class="center-element text-center">
+                    <h2>The Ham is <span class="primary-color">Wordpress theme</span></h2>
+                    <h1>We are creative</h1>
+                    <p>Just Buy And Enjoy These Awesome Features</p>
+
+                    <div class="header-buttons">
+                        <button class="btn btn-success ham-btn">Explore now</button>
+                        <button class="btn btn-info ham-btn">Purchase now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top-features" id="ham-skills">
+            <div class="container-fluid">
+                <div class="row main-features">
+                    <div class="col-sm-3 top-feature-item">
+                        <div class="feature-inner">
+                            <i class="finicon-pointer"></i>
+                            <h4>Different theme option</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 top-feature-item">
+                        <div class="feature-inner">
+                            <i class="finicon-diamant"></i>
+                            <h4>Fully customizable</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 top-feature-item">
+                        <div class="feature-inner">
+                            <i class="finicon-lamp"></i>
+                            <h4>Unlimited support</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 top-feature-item">
+                        <div class="feature-inner">
+                            <i class="finicon-devices"></i>
+                            <h4>Responsive all device</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-features section-padding">
+            <div class="container">
+                <h2 class="section-header">Creative amazing features</h2>
+                <div class="section-line"></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature1"></i>
+                            <span>Retina Ready</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature2"></i>
+                            <span>Creative Blog Style</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature3"></i>
+                            <span>Icon Fonts</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature4"></i>
+                            <span>Parallax Effects</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature5"></i>
+                            <span>Amazing Interface</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature6"></i>
+                            <span>SEO Optimized</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature7"></i>
+                            <span>Creative Solutions</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature8"></i>
+                            <span>Mega Menus</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-item">
+                        <h3>
+                            <i class="finicon-feature9"></i>
+                            <span>Custom Backgrounds</span>
+                        </h3>
+                        <div class="descr">
+                            All our modules are built with the possi bility to thse choose between different
+                            design and you change.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ham-about" class="section-padding section-bg ham-about">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-6 col-md-offset-6">
+                    <div class="header-wrap">
+                        <h2 class="section-header">About our company</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    <div>
+                        <div class="center-md">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation">
+                                    <a href="#our-history" aria-controls="our-history" role="tab" data-toggle="tab"> Our history </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#our-biography" aria-controls="our-biography" role="tab" data-toggle="tab"> Our biography </a>
+                                </li>
+                                <li role="presentation" class="active">
+                                    <a href="#our-skills" aria-controls="our-skills" role="tab" data-toggle="tab"> Our skills </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane" id="our-history">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                <div class="row history-rows">
+                                    <div class="col-sm-6">
+                                        <div class="history-item">
+                                            <i class="finicon-ok"></i>
+                                            <span>Excepteur sint occaecat sint.</span>
+                                        </div>
+                                        <div class="history-item">
+                                            <i class="finicon-ok"></i>
+                                            <span>Excepteur sint occaecat sint.</span>
+                                        </div>
+                                        <div class="history-item">
+                                            <i class="finicon-ok"></i>
+                                            <span>Excepteur sint occaecat sint.</span>
+                                        </div>
+                                        <div class="history-item">
+                                            <i class="finicon-ok"></i>
+                                            <span>Excepteur sint occaecat sint.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="history-item">
+                                            <i class="theHam-ok"></i>
+                                            <span>Excepteur sint occaecat sint.</span>
+                                        </div>
+                                        <div class="history-item">
+                                            <i class="finicon-ok"></i>
+                                            <span>Excepteur sint occaecat sint.</span>
+                                        </div>
+                                        <div class="history-item">
+                                            <i class="finicon-ok"></i>
+                                            <span>Excepteur sint occaecat sint.</span>
+                                        </div><div class="history-item">
+                                        <i class="finicon-ok"></i>
+                                        <span>Excepteur sint occaecat sint.</span>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="our-biography">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec odio ipsum Suspendisse cursus malesuada facilisis. Nunc con sectetur odio sed dolor tincidunt porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibu lum nec odio ipsum. Sus pendisse cursus malesua da facilisis. Vestibulum nec odio ipsum. </p>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec odio ipsum Suspendisse cursus malesuada facilisis. Nunc con sectetur odio sed dolor tincidunt porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane active" id="our-skills">
+                                <div class="skill-item">
+                                    <div class="skill-active">User interface</div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-active">Web design</div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-active">Wordpress</div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-active">HTML &amp; CSS</div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-active">App design</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="devices">
+
+            </div>
+        </section>
+        <section class="section-padding amazing-work" id="ham-work">
+            <h2 class="section-header">Our amazing work</h2>
+            <div class="section-line"></div>
+
+            <div class="text-center">
+                <ul class="mixitup-controls">
+                    <li><button type="button" data-mixitup-control data-filter="all">All</button></li>
+                    <li><button type="button" data-mixitup-control data-filter=".cat-graphic-design">Graphic Design</button></li>
+                    <li><button type="button" data-mixitup-control data-filter=".cat-web-design">Web Design</button></li>
+                    <li><button type="button" data-mixitup-control data-filter=".cat-landing">Landing Pages</button></li>
+                    <li><button type="button" data-mixitup-control data-filter=".cat-wordpress">Wordpress</button></li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <div class="mixitup-works clearfix">
+                    <div class="mix cat-graphic-design">
+                        <div class="work-bg" style="background-image: url('img/work1.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-web-design">
+                        <div class="work-bg" style="background-image: url('img/work2.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-landing">
+                        <div class="work-bg" style="background-image: url('img/work3.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-wordpress">
+                        <div class="work-bg" style="background-image: url('img/work4.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-web-design">
+                        <div class="work-bg" style="background-image: url('img/work2.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-landing">
+                        <div class="work-bg" style="background-image: url('img/work3.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-wordpress">
+                        <div class="work-bg" style="background-image: url('img/work4.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div></div>
+                    <div class="mix cat-graphic-design">
+                        <div class="work-bg" style="background-image: url('img/work1.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-web-design">
+                        <div class="work-bg" style="background-image: url('img/work2.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-wordpress">
+                        <div class="work-bg" style="background-image: url('img/work4.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-graphic-design">
+                        <div class="work-bg" style="background-image: url('img/work1.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix cat-landing">
+                        <div class="work-bg" style="background-image: url('img/work3.jpg')"></div>
+                        <div class="work-hover">
+                            <div class="center-element">
+                                <div class="links-wrap">
+                                    <a href="#"><i class="finicon-work-link"></i></a>
+                                    <a href="#"><i class="finicon-search"></i></a>
+                                </div>
+                                <h4>Creative design</h4>
+                                <h5>Web design</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-success ham-btn">
+                        <i class="finicon-plus"></i>
+                        <span>Load more</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-padding section-services" id="ham-service">
+            <h2 class="section-header">Our Services</h2>
+            <div class="section-line"></div>
+
+            <div class="container">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#service-web-tab" aria-controls="service-web-tab" role="tab" data-toggle="tab">
+                            Web Design
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#service-graphic-tab" aria-controls="service-graphic-tab" role="tab" data-toggle="tab">
+                            Graphic Design
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#service-support-tab" aria-controls="service-support-tab" role="tab" data-toggle="tab">
+                            Online Support
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#service-app-tab" aria-controls="service-app-tab" role="tab" data-toggle="tab">
+                            App Design
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#service-marketing-tab" aria-controls="service-marketing-tab" role="tab" data-toggle="tab">
+                            Online Marketing
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#service-seo-tab" aria-controls="service-seo-tab" role="tab" data-toggle="tab">
+                            Seo Service
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="service-web-tab">
+                        <div class="clearfix">
+                            <div class="service-image"><img src="img/services-image1.jpg" alt="Service name"></div>
+                            <div class="service-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="service-graphic-tab">
+                        <div class="clearfix">
+                            <div class="service-image"><img src="img/services-image2.jpg" alt="Service name"></div>
+                            <div class="service-txt">
+                                Et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="service-support-tab">
+                        <div class="clearfix">
+                            <div class="service-image"><img src="img/services-image3.jpg" alt="Service name"></div>
+                            <div class="service-txt">
+                                In culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="service-app-tab">
+                        <div class="clearfix">
+                            <div class="service-image"><img src="img/services-image4.jpg" alt="Service name"></div>
+                            <div class="service-txt">
+                                Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="service-marketing-tab">
+                        <div class="clearfix">
+                            <div class="service-image"><img src="img/services-image5.jpg" alt="Service name"></div>
+                            <div class="service-txt">
+                                Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                                dolor sit amet, c
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="service-seo-tab">
+                        <div class="clearfix">
+                            <div class="service-image"><img src="img/services-image6.jpg" alt="Service name"></div>
+                            <div class="service-txt">
+                                Officia deserunt mollit anim id est laborum. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-bg section-padding section-buy">
+            <div class="container">
+                <h2>Everything is ready. just buy and install now</h2>
+                <p>Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you</p>
+
+                <div class="text-center">
+                    <button class="btn btn-success ham-btn">
+                        <i class="theHam-plus"></i>
+                        <span>Purchase now</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding section-news" id="ham-blog">
+            <h2 class="section-header">Breaking news</h2>
+            <div class="section-line"></div>
+            <div class="container news-container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-6 full-480">
+                        <div class="news-item">
+                            <div class="news-bg-overflow">
+                                <div class="news-bg" style="background-image: url('img/breaking-news.jpg')"></div>
+                            </div>
+                            <div class="news-date">
+                                <div>12</div>
+                                <div>Feb</div>
+                            </div>
+                            <div class="news-details">
+                                <h4><a href="#">Amazing Blog Post</a></h4>
+                                <span>By <a href="#">admin</a></span>
+                                <span class="news-data-divider">|</span>
+                                <span><a href="#">2 comment</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6 full-480">
+                        <div class="news-item">
+                            <div class="news-bg-overflow">
+                                <div class="news-bg" style="background-image: url('img/breaking-news.jpg')"></div>
+                            </div>
+                            <div class="news-date">
+                                <div>12</div>
+                                <div>Feb</div>
+                            </div>
+                            <div class="news-details">
+                                <h4><a href="#">Amazing Blog Post long title long title long title long title </a></h4>
+                                <span>By <a href="#">admin</a></span>
+                                <span class="news-data-divider">|</span>
+                                <span><a href="#">2 comment</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6 full-480">
+                        <div class="news-item">
+                            <div class="news-bg-overflow">
+                                <div class="news-bg" style="background-image: url('img/breaking-news.jpg')"></div>
+                            </div>
+                            <div class="news-date">
+                                <div>12</div>
+                                <div>Feb</div>
+                            </div>
+                            <div class="news-details">
+                                <h4><a href="#">Amazing Blog Post</a></h4>
+                                <span>By <a href="#">admin</a></span>
+                                <span class="news-data-divider">|</span>
+                                <span><a href="#">2 comment</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6 full-480">
+                        <div class="news-item">
+                            <div class="news-bg-overflow">
+                                <div class="news-bg" style="background-image: url('img/breaking-news.jpg')"></div>
+                            </div>
+                            <div class="news-date">
+                                <div>12</div>
+                                <div>Feb</div>
+                            </div>
+                            <div class="news-details">
+                                <h4><a href="#">Amazing Blog Post</a></h4>
+                                <span>By <a href="#">admin</a></span>
+                                <span class="news-data-divider">|</span>
+                                <span><a href="#">2 comment</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6 full-480">
+                        <div class="news-item">
+                            <div class="news-bg-overflow">
+                                <div class="news-bg" style="background-image: url('img/breaking-news.jpg')"></div>
+                            </div>
+                            <div class="news-date">
+                                <div>12</div>
+                                <div>Feb</div>
+                            </div>
+                            <div class="news-details">
+                                <h4><a href="#">Amazing Blog Post</a></h4>
+                                <span>By <a href="#">admin</a></span>
+                                <span class="news-data-divider">|</span>
+                                <span><a href="#">2 comment</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6 full-480">
+                        <div class="news-item">
+                            <div class="news-bg-overflow">
+                                <div class="news-bg" style="background-image: url('img/breaking-news.jpg')"></div>
+                            </div>
+                            <div class="news-date">
+                                <div>12</div>
+                                <div>Feb</div>
+                            </div>
+                            <div class="news-details">
+                                <h4><a href="#">Amazing Blog Post</a></h4>
+                                <span>By <a href="#">admin</a></span>
+                                <span class="news-data-divider">|</span>
+                                <span><a href="#">2 comment</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6 full-480">
+                        <div class="news-item">
+                            <div class="news-bg-overflow">
+                                <div class="news-bg" style="background-image: url('img/breaking-news.jpg')"></div>
+                            </div>
+                            <div class="news-date">
+                                <div>12</div>
+                                <div>Feb</div>
+                            </div>
+                            <div class="news-details">
+                                <h4><a href="#">Amazing Blog Post</a></h4>
+                                <span>By <a href="#">admin</a></span>
+                                <span class="news-data-divider">|</span>
+                                <span><a href="#">2 comment</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6 full-480">
+                        <div class="news-item">
+                            <div class="news-bg-overflow">
+                                <div class="news-bg" style="background-image: url('img/breaking-news.jpg')"></div>
+                            </div>
+                            <div class="news-date">
+                                <div>12</div>
+                                <div>Feb</div>
+                            </div>
+                            <div class="news-details">
+                                <h4><a href="#">Amazing Blog Post</a></h4>
+                                <span>By <a href="#">admin</a></span>
+                                <span class="news-data-divider">|</span>
+                                <span><a href="#">2 comment</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-statistics">
+            <div class="container-fluid">
+                <div class="row stat-wrap">
+                    <div class="col-sm-3 col-xs-6 full-480 stat-item">
+                        <div class="center-element">
+                            <div class="icon-wrap">
+                                <div class="center-elemen icon-bg">
+                                    <i class="finicon-work"></i>
+                                </div>
+                            </div>
+                            <div class="counter">4609</div>
+                            <h5>Works</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 full-480 stat-item">
+                        <div class="center-element">
+                            <div class="icon-wrap">
+                                <div class="center-elemen icon-bg">
+                                    <i class="finicon-user"></i>
+                                </div>
+                            </div>
+                            <div class="counter">3470</div>
+                            <h5>Customers</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 full-480 stat-item">
+                        <div class="center-element">
+                            <div class="icon-wrap">
+                                <div class="center-elemen icon-bg">
+                                    <i class="finicon-cart"></i>
+                                </div>
+                            </div>
+                            <div class="counter">2908</div>
+                            <h5>Purchase</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 full-480 stat-item">
+                        <div class="center-element">
+                            <div class="icon-wrap">
+                                <div class="center-elemen icon-bg">
+                                    <i class="finicon-location"></i>
+                                </div>
+                            </div>
+                            <div class="counter">1908</div>
+                            <h5>Office</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding section-pricing">
+            <h2 class="section-header">Our Pricing Table</h2>
+            <div class="section-line"></div>
+
+            <div class="container pricing-container">
+                <div class="clearfix">
+                    <div class="pricing-item">
+                        <div class="pr-header">Personal</div>
+                        <div class="pr-cost">$99<sub>/Month</sub></div>
+                        <ul>
+                            <li>1 Hosting</li>
+                            <li>2 Email Marketing</li>
+                            <li>5 Database</li>
+                            <li>2 Design Pack</li>
+                            <li>3 Website Layout</li>
+                            <li>5 Header Style</li>
+                            <li>3 Online Store</li>
+                        </ul>
+                        <button class="btn ham-buy">Buy now</button>
+                    </div>
+                    <div class="pricing-item">
+                        <div class="pr-header">Business</div>
+                        <div class="pr-cost">$199<sub>/Month</sub></div>
+                        <ul>
+                            <li>1 Hosting</li>
+                            <li>2 Email Marketing</li>
+                            <li>5 Database</li>
+                            <li>2 Design Pack</li>
+                            <li>3 Website Layout</li>
+                            <li>5 Header Style</li>
+                            <li>3 Online Store</li>
+                        </ul>
+                        <button class="btn ham-buy">Buy now</button>
+                    </div>
+                    <div class="pricing-item offer-item">
+                        <div class="ham-ribbon-wrapper">
+                            <div class="ham-ribbon">Offer</div>
+                        </div>
+                        <div class="pr-header">Professional</div>
+                        <div class="pr-cost">$299<sub>/Month</sub></div>
+                        <ul>
+                            <li>1 Hosting</li>
+                            <li>2 Email Marketing</li>
+                            <li>5 Database</li>
+                            <li>2 Design Pack</li>
+                            <li>3 Website Layout</li>
+                            <li>5 Header Style</li>
+                            <li>3 Online Store</li>
+                        </ul>
+                        <button class="btn ham-buy">Buy now</button>
+                    </div>
+                    <div class="pricing-item">
+                        <div class="pr-header">Diamond</div>
+                        <div class="pr-cost">$399<sub>/Month</sub></div>
+                        <ul>
+                            <li>1 Hosting</li>
+                            <li>2 Email Marketing</li>
+                            <li>5 Database</li>
+                            <li>2 Design Pack</li>
+                            <li>3 Website Layout</li>
+                            <li>5 Header Style</li>
+                            <li>3 Online Store</li>
+                        </ul>
+                        <button class="btn ham-buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding section-bg section-testimonials" id="ham-testemonial">
+            <h2 class="section-header">What People Say About theHam</h2>
+            <div class="section-line"></div>
+
+            <div class="container">
+                <ul class="bxslider ham-bxslider">
+                    <li>
+                        <i class="finicon-quote"></i>
+                        <p>
+                            Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi
+                            quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui
+                            laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.
+                        </p>
+                        <h4>Hasan Ali</h4>
+                        <h5>UX Designer</h5>
+                        <div class="user-image">
+                            <img src="img/testimonials-user1.jpg" alt="User name"/>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="finicon-quote"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut debitis dolorum
+                            harum laboriosam laborum molestiae natus necessitatibus nisi obcaecati officiis, qui rem
+                            repellat similique sint vel vitae. Enim, tempore. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Architecto aut debitis dolorum harum laboriosam laborum molestiae natus
+                            necessitatibus nisi obcaecati officiis, qui rem repellat similique sint vel vitae.
+                            Enim, tempore.
+                        </p>
+                        <h4>Hasan Ali 2</h4>
+                        <h5>UX Designer</h5>
+                        <div class="user-image">
+                            <img src="img/testimonials-user2.jpg" alt="User name"/>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="finicon-quote"></i>
+                        <p>
+                            Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi
+                            quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui
+                            laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.
+                        </p>
+                        <h4>Hasan Ali 3</h4>
+                        <h5>UX Designer</h5>
+                        <div class="user-image">
+                            <img src="img/testimonials-user3.jpg" alt="User name"/>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="finicon-quote"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut debitis dolorum
+                            harum laboriosam laborum molestiae natus necessitatibus nisi obcaecati officiis, qui rem
+                            repellat similique sint vel vitae. Enim, tempore. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Architecto aut debitis dolorum harum laboriosam laborum molestiae natus
+                            necessitatibus nisi obcaecati officiis, qui rem repellat similique sint vel vitae.
+                            Enim, tempore.
+                        </p>
+                        <h4>Hasan Ali 4</h4>
+                        <h5>UX Designer</h5>
+                        <div class="user-image">
+                            <img src="img/testimonials-user4.jpg" alt="User name"/>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="text-center ham-controls-wrap">
+                    <div id="ham-testimonials-prev" class="testimonials-control testimonials-control-prev"></div>
+                    <div id="ham-bx-pager">
+                        <a data-slide-index="0" href="#">
+                            <span class="user-image">
+                                <img src="img/testimonials-user1.jpg" alt="User name"/>
+                            </span>
+                        </a>
+                        <a data-slide-index="1" href="#">
+                            <span class="user-image">
+                                <img src="img/testimonials-user2.jpg" alt="User name"/>
+                            </span>
+                        </a>
+                        <a data-slide-index="2" href="#">
+                            <span class="user-image">
+                                <img src="img/testimonials-user3.jpg" alt="User name"/>
+                            </span>
+                        </a>
+                        <a data-slide-index="3" href="#">
+                            <span class="user-image">
+                                <img src="img/testimonials-user4.jpg" alt="User name"/>
+                            </span>
+                        </a>
+                    </div>
+                    <div id="ham-testimonials-next" class="testimonials-control testimonials-control-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding section-team" id="ham-team">
+            <h2 class="section-header">Meet out team</h2>
+            <div class="section-line"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6 full-480">
+                        <div class="team-member-item">
+                            <div class="member-image" style="background-image: url('img/team-member1.jpg')">
+                                <a href="#">
+                                    <span class="icon-border center-element">
+                                        <span class="icon-bg">
+                                            <i class="finicon-plus"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <h4>Al Masum</h4>
+                                <h5>Founder</h5>
+                            </div>
+                            <div class="clearfix memver-socials">
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-facebook"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-twitter"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-skype"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-vimeo"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 full-480">
+                        <div class="team-member-item">
+                            <div class="member-image" style="background-image: url('img/team-member2.jpg')">
+                                <a href="#">
+                                    <span class="icon-border center-element">
+                                        <span class="icon-bg">
+                                            <i class="finicon-plus"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <h4>Mis Liza</h4>
+                                <h5>UX Designer</h5>
+                            </div>
+                            <div class="clearfix memver-socials">
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-facebook"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-twitter"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-skype"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-vimeo"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 full-480">
+                        <div class="team-member-item">
+                            <div class="member-image" style="background-image: url('img/team-member1.jpg')">
+                                <a href="#">
+                                    <span class="icon-border center-element">
+                                        <span class="icon-bg">
+                                            <i class="finicon-plus"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <h4>Hasan Mahmud</h4>
+                                <h5>Web Designer</h5>
+                            </div>
+                            <div class="clearfix memver-socials">
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-facebook"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-twitter"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-skype"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-vimeo"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 full-480">
+                        <div class="team-member-item">
+                            <div class="member-image" style="background-image: url('img/team-member2.jpg')">
+                                <a href="#">
+                                    <span class="icon-border center-element">
+                                        <span class="icon-bg">
+                                            <i class="finicon-plus"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <h4>Afifa Jannat</h4>
+                                <h5>Web Designer</h5>
+                            </div>
+                            <div class="clearfix memver-socials">
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-facebook"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-twitter"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-skype"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#"><i class="finicon-vimeo"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding section-bg section-creative">
+            <div class="container">
+                <h2>theHam is not only wordpress theme</h2>
+                <h3>It’s also clean and creative design</h3>
+                <div class="col-sm-5 col-sm-offset-7">
+                    <div class="center-xs">
+                        <ul>
+                            <li>
+                                <i class="finicon-ok"></i>
+                                <span>Clean Layout Design</span>
+                            </li>
+                            <li>
+                                <i class="finicon-ok"></i>
+                                <span>Many Style Portfolio Design</span>
+                            </li>
+                            <li>
+                                <i class="finicon-ok"></i>
+                                <span>Beautiful Blog Page</span>
+                            </li>
+                            <li>
+                                <i class="finicon-ok"></i>
+                                <span>Mega PSD Pack</span>
+                            </li>
+                            <li>
+                                <i class="finicon-ok"></i>
+                                <span>User Friendly Design</span>
+                            </li>
+                            <li>
+                                <i class="finicon-ok"></i>
+                                <span>Full Shortcodes</span>
+                            </li>
+                            <li>
+                                <i class="finicon-ok"></i>
+                                <span>Fully Editable PSD</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="center-xs">
+                        <button class="btn btn-success ham-btn">Purchase Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="creative-laptop-bg hidden-xs"></div>
+        </section>
+
+        <section class="section-padding section-contact" id="ham-contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div id="theHamMap"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="header-wrap">
+                            <h2 class="section-header">Keep In Touch</h2>
+                            <div class="section-line "></div>
+                        </div>
+                        <div>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success ham-btn">Send request</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 center-xs">
+                        <a href="#" class="footer-logo"><img src="img/footer-logo.png" alt="theHam"></a>
+                        <p class="main-footer-info">
+                            Lorem ipsum dolor sit amet, con is sectetur adipiscing elit. Duis ut lob ortis nulla.
+                            Vestibulum ante ipsum primis itrices posuere cubilia.
+                        </p>
+                        <p class="subtitle margin0">Office:</p>
+                        <p>
+                            795 Folsom Ave, Suite 600
+                            <br>
+                            San Francisco, CA 94107
+                        </p>
+                        <br>
+                        <p class="margin0">
+                            <span class="subtitle">Phone: </span>
+                            <span><a href="tel:918547632521">(91) 8547 632521</a></span>
+                        </p>
+                        <p class="margin0">
+                            <span class="subtitle">Fax: </span>
+                            <span><a href="tel:911147521433">(91) 11 4752 1433</a></span>
+                        </p>
+                        <p class="margin0">
+                            <span class="subtitle">Email: </span>
+                            <span><a href="mailto:info@canvas.com">info@canvas.com</a></span>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <h4>Recent post</h4>
+                        <div class="clearfix recent-post-item">
+                            <div class="post-bg-wrap">
+                                <a href="#">
+                                    <div class="recent-post-bg" style="background-image: url('img/recent-post.jpg')"></div>
+                                </a>
+                            </div>
+                            <div class="post-descr-wrap">
+                                <h5><a href="#">A standard image post</a></h5>
+                                <p>Lorem ipsum dolor sit amet, con sectetur adip is lisicing elit, sed do.</p>
+                                <div class="recent-post-date">10 March, 2015</div>
+                            </div>
+                        </div>
+                        <div class="clearfix recent-post-item">
+                            <div class="post-bg-wrap">
+                                <a href="#">
+                                    <div class="recent-post-bg" style="background-image: url('img/recent-post.jpg')"></div>
+                                </a>
+                            </div>
+                            <div class="post-descr-wrap">
+                                <h5><a href="#">Multi author post</a></h5>
+                                <p>Lorem ipsum dolor sit amet, con sectetur adip is lisicing elit, sed do.</p>
+                                <div class="recent-post-date">10 March, 2015</div>
+                            </div>
+                        </div>
+                        <div class="clearfix recent-post-item">
+                            <div class="post-bg-wrap">
+                                <a href="#">
+                                    <div class="recent-post-bg" style="background-image: url('img/recent-post.jpg')"></div>
+                                </a>
+                            </div>
+                            <div class="post-descr-wrap">
+                                <h5><a href="#">Long post title long long long long long</a></h5>
+                                <p>Lorem ipsum dolor sit amet, con sectetur adip is lisicing elit, sed do.</p>
+                                <div class="recent-post-date">10 March, 2015</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-8">
+                        <h4>Tags</h4>
+                        <ul class="ham-tags">
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Image</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Image long title </a></li>
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Image</a></li>
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                        <h4>Newsletter</h4>
+                        <p>Subscribe to Our Newsletter to get Important News, Amazing Off</p>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter email">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">Go</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <h4>Flicke feed</h4>
+                        <ul class="clearfix footer-feed">
+                            <li><a href="#" style="background-image: url('img/footer-image.jpg')"></a></li>
+                            <li><a href="#" style="background-image: url('img/footer-image.jpg')"></a></li>
+                            <li><a href="#" style="background-image: url('img/footer-image.jpg')"></a></li>
+                            <li><a href="#" style="background-image: url('img/footer-image.jpg')"></a></li>
+                            <li><a href="#" style="background-image: url('img/footer-image.jpg')"></a></li>
+                            <li><a href="#" style="background-image: url('img/footer-image.jpg')"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">Copyright 2015 <span class="colored-name">theHam</span> | All Rights Reserved</div>
+    </footer>
 
     <script src="libs/jquery/jquery-3.2.1.min.js"></script>
-    <script src="libs/bootstrap-3.3.7"></script>
+    <script src="libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+    <script src="libs/mixitup/mixitup.min.js"></script>
+    <script src="libs/bxslider/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX7R1mxEv9t6KLzUwJ-oJkNOdxhv7zv-8"></script>
+    <script src="js/theHamMap.js"></script>
 
+    <script src="js/main.js"></script>
 
-
-
-    <script src="js/mainjs.js"></script>
 </body>
 </html>

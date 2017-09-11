@@ -1,0 +1,79 @@
+@import "variables"
+
+header
+  background-color: #49473f
+  .logo
+    padding-top: 10px
+    max-width: 100%
+  .navbar-default
+    background: none
+    //background-image: none
+    border: none
+    box-shadow: none
+    .navbar-nav
+      li a
+        text-transform: uppercase
+        color: #b8b8b8
+        transition: all .3s ease
+        font-size: 13px
+        font-weight: bold
+
+    .navbar-nav
+      > .active
+        > a, > a:focus, > a:hover
+          background-color: transparent
+          //background: none transparent
+  &:hover
+    a
+      color: $primary-light
+
+
+section
+  &.ham-home
+    .home-slider-items
+      height: 100vh
+      min-height: 600px
+
+
+
+
+body
+  font-family: $font
+  position: relative
+
+.center-element
+  position: absolute
+  width: 100%
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.primary-color
+  color: $primary-light
+
+.ham-btn
+  font-size: 13px
+  text-transform: uppercase
+  font-weight: bold
+  height: 60px
+  padding: 0 25px
+  margin: 0 15px
+  transition: $transition
+  border: none
+  border-top: 5px solid #fff
+  border-radius: 5px
+  box-shadow: none
+  &:hover, &:focus, &:active, &:active:focus
+    border: none
+    border-top: 5px solid #fff
+    box-shadow: none
+    background-color: $primary-light
+  &.btn-success
+    background-color: $primary-light
+    &:hover
+      background-color: lighten($primary-light, 10%)
+  &.btn-info
+    background-color: $info-btn
+    &:hover
+      background-color: lighten($info-btn, 10%)
+
