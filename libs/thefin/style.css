@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'thefin';
+  src:  url('fonts/thefin.eot?jsm1k9');
+  src:  url('fonts/thefin.eot?jsm1k9#iefix') format('embedded-opentype'),
+    url('fonts/thefin.ttf?jsm1k9') format('truetype'),
+    url('fonts/thefin.woff?jsm1k9') format('woff'),
+    url('fonts/thefin.svg?jsm1k9#thefin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="finicon-"], [class*=" finicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'thefin' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.finicon-arrow-left:before {
+  content: "\e900";
+}
+.finicon-arrow-right:before {
+  content: "\e901";
+}
+.finicon-cart:before {
+  content: "\e902";
+}
+.finicon-devices:before {
+  content: "\e903";
+}
+.finicon-diamant:before {
+  content: "\e904";
+}
+.finicon-feature1:before {
+  content: "\e905";
+}
+.finicon-feature2:before {
+  content: "\e906";
+}
+.finicon-feature3:before {
+  content: "\e907";
+}
+.finicon-feature4:before {
+  content: "\e908";
+}
+.finicon-feature5:before {
+  content: "\e909";
+}
+.finicon-feature6:before {
+  content: "\e90a";
+}
+.finicon-feature7:before {
+  content: "\e90b";
+}
+.finicon-feature8:before {
+  content: "\e90c";
+}
+.finicon-feature9:before {
+  content: "\e90d";
+}
+.finicon-lamp:before {
+  content: "\e90e";
+}
+.finicon-location:before {
+  content: "\e90f";
+}
+.finicon-ok:before {
+  content: "\e910";
+}
+.finicon-plus:before {
+  content: "\e911";
+}
+.finicon-pointer:before {
+  content: "\e912";
+}
+.finicon-quote:before {
+  content: "\e913";
+}
+.finicon-user:before {
+  content: "\e914";
+}
+.finicon-work:before {
+  content: "\e915";
+}
+.finicon-work-link:before {
+  content: "\e916";
+}
+.finicon-search:before {
+  content: "\e986";
+}
+.finicon-facebook:before {
+  content: "\ea90";
+}
+.finicon-twitter:before {
+  content: "\ea96";
+}
+.finicon-vimeo:before {
+  content: "\eaa0";
+}
+.finicon-skype:before {
+  content: "\eac5";
+}
